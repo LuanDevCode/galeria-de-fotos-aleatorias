@@ -58,8 +58,3 @@ Este projeto é um excelente exemplo de como criar uma galeria visualmente rica 
 
 Luan Marcos
 
----
-
-## 📄 Licença
-
-Este projeto está sob a licença [Nome da Licença, ex: MIT License] - veja o arquivo [LICENSE.md](LICENSE.md) (se você tiver um) para mais detalhes.
