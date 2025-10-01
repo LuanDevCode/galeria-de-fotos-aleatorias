@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2em;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(to left, grey, rgba(0, 0, 0, 0.884))
+}
+
+h1{
+    font-family: 'Roboto';
+}
+
+h1::after{
+    content: 'image';
+    margin-left: 12px;
+    font-family: "material symbols outlined";
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 420px;
+    padding: 8px;
+    width: 100%;           /* ocupa 100% da tela */
+    max-width: 950px;      /* não passa disso em telas grandes */
+    background-color: rgb(201, 197, 197);
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    }
+
+.fotos{
+    position: relative;
+    max-width: 300px;     /* mas nunca passa disso em telas grandes */
+    margin: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+
+img{
+    height: 180px;
+    opacity: 60%;
+    transition: 0.5s;
+     object-fit: cover; /* A imagem preenche o espaço sem distorcer */
+}
+
+img:hover{
+    transform: scale(1.2);
+    opacity: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+p{
+    display: none;
+    position: absolute;
+    bottom: -20px;
+    width: 100%;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.534);
+    color: white;
+
+    padding: 12px;
+}
+
+.fotos img:hover + p{
+    display: block;
+
+}
