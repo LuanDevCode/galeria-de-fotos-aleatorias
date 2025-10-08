@@ -29,7 +29,7 @@ Uma simples e elegante galeria de fotos desenvolvida puramente com **HTML e CSS*
 
 1.  **Clone o Repositório:**
     ```bash
-    git clone https://github.com/LuanDevCode/galeria-de-fotos-aleatorias)
+    git clone https://github.com/LuanDevCode/galeria-de-fotos-aleatorias
     ```
 2.  **Acesse a Pasta:**
     ```bash
